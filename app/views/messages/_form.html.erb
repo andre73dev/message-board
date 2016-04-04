@@ -19,6 +19,12 @@
     </div>
   </div>
   <div class="form-group">
+    <label for="massage_age" class="col-sm-1 control-label">年齡:</label>
+    <div class="col-sm-8">
+      <%= f.text_field :age, id:"massage_age", class:"form-control" %>
+    </div>
+  </div>
+  <div class="form-group">
     <label for="massage_body" class="col-sm-1 control-label">内容:</label>
     <div class="col-sm-8">
       <%= f.text_area :body, id:"massage_body", class:"form-control",rows: 5 %>
